@@ -40,7 +40,7 @@ function scrollText(element, speed) {
   const shrinkSpeed = 0.1; // скорость сужения
   let angle = 0; // угол наклона круга
   const angleSpeed = 0.15; // скорость изменения угла наклона
-  const stretchFactorMultiplier = 1.7; // множитель для увеличения растяжения
+  const stretchFactorMultiplier = 1.2; // множитель для увеличения растяжения
   
   function animate() {
       const dx = circleX - prevCircleX;
